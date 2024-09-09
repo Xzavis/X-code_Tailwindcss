@@ -1,0 +1,15 @@
+{
+  "name": "website_portfolio_full",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "minify" : "npx tailwindcss -o ./public/final.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
