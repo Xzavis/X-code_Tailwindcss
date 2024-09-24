@@ -19,15 +19,18 @@ module.exports = {
         strokeMedsos:
           'linear-gradient(180deg, rgba(255, 255, 255, .100) 0%, rgba(255, 255, 255, 0.0) 100%)',
         gradientNav: 'linear-gradient(103deg, #04071D 16.66%, #0C0E23 81.61%)',
+        helloCard: 'radial-gradient(50% 50% at 50% 50%, rgba(1, 2, 20, 0.9) 18%, rgb(84, 43, 200) 71.97%)',
         gradientPurple:
           'radial-gradient(127.11% 127.11% at 50.03% -4.65%, rgba(1, 2, 20, 0.90) 39.07%, #542BC8 71.97%, #F0EAFF 100%)',
+        gradientMain:
+          'radial-gradient(122.11% 127.11% at 0.03% -4.65%, rgba(1, 2, 20, 0.90) 34.07%, #542BC8 80.97%, #F0EAFF 100%)',
       },
       transitionTimingFunction: {
         'in-expo': "cubic-bezier(0.6, 0.6, 0, 1)",
         'out-expo': "cubic-bezier(0.6, 0.6, 0, 1)",
       },
       animation: {
-        spinSlow: 'spin 100s linear infinite',
+        spinSlow: 'spin 5s linear infinite',
       }
     },
   },
